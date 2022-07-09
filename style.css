@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+  header{
+      width: 100%;
+      height: 120px;
+      background-color: aqua;
+  }
+
+  .main-visual{
+      width: 100%;
+      height: 300px;
+      background-color: bisque;
+  }
+
+  .main{
+      width: 840px;
+      /* height: 1400px; */
+      background-color: brown;
+      margin: 0 auto;
+  }
+
+  footer{
+    width: 100%;
+    height: 120px;
+    background-color: blueviolet;
+}
+
+.header-top{
+    width: 100%;
+    height:70px;
+    background-color: chartreuse;
+}
+
+.header-bottom{
+    width: 100%;
+    height: 50px;
+    background-color: chocolate;
+}
+
+.main-visual-content{
+    width: 350px;
+    height: 300px;
+    background-color: darkorange;
+}
+
+.blog{
+    width: 600px;
+    height: 1400px;
+    background-color: dimgrey;
+    float: left;
+}
+
+.sidebar{
+    width: 240px;
+    height: 1400px;
+    background-color: violet;
+    float:left
+}
